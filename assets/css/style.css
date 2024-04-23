@@ -27,7 +27,7 @@
     padding: 8px 30px 8px 10px;
     border: none;
     border-radius: 20px;
-    background-color: rgb(189, 181, 181);
+    background-color: #f0f0f0;
     /* background-color: transparent; */
     color: black;
     
@@ -66,6 +66,9 @@
 .profile-button i {
     margin-right: 10px;
 }
+#burger{
+    display: none;
+}
 .navigation{
     height: 50px;
     background-color: gray;
@@ -87,5 +90,35 @@ nav a{
     margin: auto;
     padding: 13px;
     font-size: 16px;
+}
+@media screen and (max-width: 950px) {
+    .navigation {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+    }
+    #burger{
+        display: block;
+        
+    }
+    .navigation.active{
+        display: flex;
+    }
+    header{
+    flex-direction:row;
+    }
+    .active{
+        position: absolute;
+        height:60px;
+        background-color: red;
+    }
+    .search-input{
+        display: none;
+    }
+    .icon{
+        background-color: #f0f0f0;
+        border-radius: 50%;
+        padding:5px;
+    }
 }
 
