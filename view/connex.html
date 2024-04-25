@@ -1,11 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="stylesheet" href="../assets/css/connex.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <script src="assets/js/main.js" defer></script>
+    <script src="../assets/js/login.js" defer></script>
+    <title>Connexion</title>
 </head>
 <body>
-    
+    <header class="header">
+        <div class="container">
+          <div class="search">
+            <input type="text" class="search-input" placeholder="Rechercher..." />
+            <button class="search-button">
+              <i class="fa-solid fa-search icon"></i>
+            </button>
+          </div>
+          <div class="logo">
+            <a href="../index.html">
+              <img src="../assets/img/index.img/new-logo.png" alt="Logo Letudiant" />
+            </a>
+          </div>
+          <div class="profile">
+            <button class="profile-button">
+              <i class="fa-regular fa-user"></i>
+              <span>Profil</span>
+              <i class="fa-solid fa-bars" id="burger"></i>
+            </button>
+          </div>
+        </div>
+        <div class="navigation" id="nav">
+          <nav>
+            <a href="">Test</a>
+            <a href="">Chat</a>
+            <a href="">Notifications</a>
+            <a href="">Pour toi</a>
+            <a href="">Contactez-nous</a>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <section class="login">
+            <h1>Connectez-vous</h1>
+            <section class="login2">
+            <form id="form">
+                <section class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" placeholder="Entrez votre email">
+                </section>
+                <section class="form-group">
+                    <label for="password">Mot de passe *</label>
+                    <input type="password" id="password" placeholder="Entrez votre mot de passe">
+                </section>
+                <input type="submit" value="Connectez-vous">
+                <input type="reset" value="Effacer">
+            </form>
+        </section>   
+      </main>
 </body>
 </html>

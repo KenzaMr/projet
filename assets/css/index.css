@@ -1,9 +1,4 @@
 /* HEADER */
-header {
-  background-color: var(--clr-base);
-  color: var(--clr-base);
-  padding: 15px 0;
-}
 a {
   text-decoration: none;
 }
@@ -162,49 +157,48 @@ nav a {
   background-color: gray;
   padding: 20px;
   display: inline-block;
-  
+
   /* border-radius: 10px; */
 }
-.container-principale{
+.container-principale {
   /* background-color: red; */
   display: flex;
   margin: 80px;
   gap: 40px;
 }
-.section-art{
-    border:1px solid var(--clr-btn);
-    border-radius: 10px;
-    padding: 10px;
-    text-align: justify;
-    margin-bottom: 10px;
+.section-art {
+  border: 1px solid var(--clr-btn);
+  border-radius: 10px;
+  padding: 10px;
+  text-align: justify;
+  margin-bottom: 10px;
 }
-figure > img{
+figure > img {
   /* min-width: 10%; */
   max-width: 100%;
 }
-.section-art > h2{
-  margin:0 0 15px ;
+.section-art > h2 {
+  margin: 0 0 15px;
 }
-.section-art > p{
-  margin:0 0 15px ;
+.section-art > p {
+  margin: 0 0 15px;
 }
-.section-art > a{
+.section-art > a {
   color: var(--clr-btn);
   align-items: center;
   border: 3px solid gray;
   border-radius: 10px;
-  margin:0 0 15px
+  margin: 0 0 15px;
 }
-.container-img{
+.container-img {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   /* object-fit: cover; */
   /* gap: 20px; */
-
 }
-.img-rond{
-  width:155px ;
+.img-rond {
+  width: 155px;
   height: 155px;
   border-radius: 50%;
   object-fit: cover;

@@ -1,0 +1,22 @@
+
+[
+    {
+        "email": "kenza.mroudjae@gmail.com",
+        "password": "77200k",
+        "firstname": "Kenza",
+        "lastname":"M"
+    },
+    {
+        "email":"amitnicolas@gmail.com",
+        "password": "anrm2001",
+        "firstname": "Amit",
+        "lastname":"nicolas"
+    },
+    {
+        "email":"ouradiarra@gmail.com",
+        "password":"oura2001",
+        "firstname":"Oura",
+        "lastname":"Diarra"
+    }
+
+]
