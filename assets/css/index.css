@@ -1,3 +1,4 @@
+/* HEADER */
 header {
   background-color: var(--clr-base);
   color: var(--clr-base);
@@ -20,10 +21,6 @@ nav a {
   margin: auto;
   padding: 13px;
   font-size: 16px;
-}
-section{
-    border:1px solid var(--clr-btn);
-    padding: 10px;
 }
 .container {
   display: flex;
@@ -139,7 +136,7 @@ section{
 
 /* MAIN */
 .hero {
-  background-image: url(../img/hero2.jpg);
+  background-image: url(../img/index.img/hero2.jpg);
   width: 80%;
   min-height: 500px;
   background-position: center;
@@ -165,16 +162,50 @@ section{
   background-color: gray;
   padding: 20px;
   display: inline-block;
-
+  
   /* border-radius: 10px; */
 }
 .container-principale{
-    /* background-color: red; */
-    display: flex;
-    margin: 80px;
-    gap: 40px;
+  /* background-color: red; */
+  display: flex;
+  margin: 80px;
+  gap: 40px;
 }
-/* .section-art{
-    
-} */
+.section-art{
+    border:1px solid var(--clr-btn);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+figure > img{
+  /* min-width: 10%; */
+  max-width: 100%;
+}
+.section-art > h2{
+  margin:0 0 15px ;
+}
+.section-art > p{
+  margin:0 0 15px ;
+}
+.section-art > a{
+  color: var(--clr-btn);
+  align-items: center;
+  border: 3px solid gray;
+  border-radius: 10px;
+  margin:0 0 15px
+}
+.container-img{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* object-fit: cover; */
+  /* gap: 20px; */
 
+}
+.img-rond{
+  width:155px ;
+  height: 155px;
+  border-radius: 50%;
+  object-fit: cover;
+}
