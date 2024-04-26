@@ -1,3 +1,33 @@
 body{
     background-color: saddlebrown;
 }
+/* MAIN */
+input{
+    border-radius: 5px;
+    border: 1px solid ;
+    padding: 10px;
+}
+.contact{
+    width: 90%;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+form > div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form  label{
+    display: flex;
+    padding-top: 10px;
+}
+.finalite{
+    margin: 15px auto;
+    width: 50%;
+}

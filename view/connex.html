@@ -47,22 +47,29 @@
         </div>
       </header>
       <main>
-        <section class="login">
-            <h1>Connectez-vous</h1>
+        <div class="login">
+            <h1>Vous possédez déjà un compte ?</h1>
+            <h2>Connectez-Vous </h2>
             <section class="login2">
             <form id="form">
                 <section class="form-group">
                     <label for="email">Email *</label>
-                    <input type="email" id="email" placeholder="Entrez votre email">
+                    <input type="email" id="email" placeholder="Entrez votre email" required>
                 </section>
                 <section class="form-group">
                     <label for="password">Mot de passe *</label>
-                    <input type="password" id="password" placeholder="Entrez votre mot de passe">
+                    <input type="password" id="password" placeholder="Entrez votre mot de passe" required>
                 </section>
                 <input type="submit" value="Connectez-vous">
                 <input type="reset" value="Effacer">
             </form>
-        </section>   
+          </section>
+          <hr>
+          <section class="login3">
+          <h2>Vous n'avez pas de compte ?</h2>
+          <button class="crea">Créer votre compte</button>
+        </section>
+        </div>
       </main>
 </body>
 </html>

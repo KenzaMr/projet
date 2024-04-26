@@ -45,5 +45,46 @@
           </nav>
         </div>
       </header>
+      <main>
+        <div class="contact">
+          <h1>Contacts</h1>
+          <h2>Tu as une question ? Poses là nous! </h2>
+            <form action="" class="formulaire">
+              <div >
+                <label for="firstName">Nom *</label>
+                <input type="text" id="firstName" required>
+              </div>
+              <div >
+                <label for="lastName">Prénom *</label>
+                <input type="text" id="lastName" required>
+              </div>
+              <div>
+                <label for="email">Adresse mail *</label>
+                <input type="email" id="email" required>
+              </div>
+              <div >
+                <label for="question">Une question ?</label>
+                <select id="question">
+                    <option value="inscription">Comment s'inscrire ?</option>
+                    <option value="help">Comment avoir un parrain/marraine ?</option>
+                    <option value="fonctionement">Comment fonctionne Orientwa ?</option>
+                    <option value="contact">Avoir un contact direct</option>
+                    <option value="other">Autres question</option>
+                </select>
+              </div>
+              <div >
+                <label for="message-question">Ecris en complétement de ta question</label>
+                <textarea id="message-question" ></textarea>
+              </div>
+              <div class="finalite">
+                <input type="submit" value="Envoyer ma question">
+                <input type="reset" name="Effacer" value="Effacer">
+              </div>
+            </form>
+          </section>
+          <section></section>
+          <section></section>
+        </div>
+      </main>
 </body>
 </html>
