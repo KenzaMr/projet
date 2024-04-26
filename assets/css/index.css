@@ -75,6 +75,9 @@ nav a {
   align-items: center;
   position: relative;
 }
+.profile-button a{
+  color: black;
+}
 
 .profile-button i {
   margin-right: 10px;
@@ -127,9 +130,18 @@ nav a {
     background-color: gray;
     position: relative;
   }
+  .container-principale{
+  flex-wrap: wrap;
+  }
+  .img2{
+    flex-wrap: wrap;
+  }
 }
 
 /* MAIN */
+figure{
+  margin-bottom: 100px;
+}
 .hero {
   background-image: url(../img/index.img/hero2.jpg);
   width: 80%;
@@ -202,4 +214,10 @@ figure > img {
   height: 155px;
   border-radius: 50%;
   object-fit: cover;
+}
+/* FOOTER */
+footer{
+  background-color: rgba(128, 128, 128, 0.301);
+  min-height: 100px;
+
 }
